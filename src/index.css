@@ -1,0 +1,225 @@
+/* .card{
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.353);
+  padding: 20px;
+  margin: 20px;
+  text-align:center ;
+  max-width: 200px;
+  display: inline-block;
+  
+}
+.card .card-image{
+  max-width: 80%;
+  height: auto;
+  border-radius: 80%;
+  margin-bottom: auto;
+}
+.card ,card-title{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin:20px;
+  color: rgb(19, 18, 18);
+
+}
+.card .card-text{
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(56, 49, 49);
+
+}
+
+.student{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: larger;
+  padding: 8px;
+  border: 2px solid black;
+  
+}
+.student p{
+  margin:10px;
+
+}
+.truecon{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: green;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 0;
+
+}
+.falsecon{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: red;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 0;
+
+}
+.list-category{
+  font-size: larger;
+  font-weight: bold;
+  color: rgba(39, 225, 39, 0.93);
+  margin-bottom:10px ;
+  border-radius: 8px;
+  padding: 10px;
+  border: 3px solid;
+  background-color: rgb(121, 121, 196);
+  text-align: center;
+
+}
+.list-item li{
+  font-size: larger;
+  list-style: none;
+  color: blue;
+  text-align: center;
+  margin: 0;
+
+
+}
+.list-item li:hover{
+  color: black;
+  cursor: pointer;
+}
+
+.counter-container{
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.count-display{
+  font-size: 10em;
+  margin-top: 0;
+  margin-bottom: 50px;
+}
+.counter-btn{
+  width: 150px;
+  height: 50px;
+  font-size: 1.5em;
+  font: bold;
+  margin: 0px 5px;
+  background-color: rgb(89, 89, 188);
+  color: aliceblue;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.counter-btn:hover{
+  background-color: rgb(122, 122, 210);
+} 
+
+
+body{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.colorpicker-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+h1{
+  margin: 50px;
+  font-size: 3em;
+
+}
+.color-display{
+  width:300px;
+  height: 300px;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  border: 5px solid rgb(22, 18, 18);
+  border-radius: 20px;
+  margin-bottom: 25px;
+  transition: 0.25s ease;
+
+}
+.color-display p{
+  color: black;
+  font-size: 2rem;
+  text-align: center;
+
+}
+label{
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+input[type="color"]{
+  width: 75px;
+  height: 50px;
+  padding: 2px;
+  border-radius: 10px;
+  border: 3px solid black;
+
+
+}*/
+
+.to-do-list{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+  margin-top: 100px;
+}
+button{
+  font-size: 1.7rem;
+  font-weight: bold;
+  padding: 10px 20px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition:  background-color 0.5s ease;
+}
+.add-btn{
+  background-color: rgb(53, 176, 53);
+}
+.add-btn:hover{
+  background-color: rgb(45, 129, 45);
+}
+.delete-btn{
+  background-color: rgb(234, 56, 56);
+}
+.delete-btn:hover{
+  background-color: rgb(179, 20, 38);
+}
+.move-btn{
+  background-color: rgb(56, 184, 234);
+}
+.move-btn:hover{
+  background-color: rgb(17, 125, 168);
+}
+input[type="text"]{
+  font-size: 1.6rem;
+  padding: 10px;
+  border: 2px solid rgba(82, 77, 77, 0.967);
+  border-radius: 5px;
+  color: rgb(20, 19, 19);
+}
+ol{
+  padding: 0px;
+}
+li{
+  font-size: 2rem;
+  font-weight: bold;
+  background-color:white;
+  margin-bottom: 10px;
+  border: 3px solid rgb(173, 155, 155);
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+
+}
+.text{
+  flex:1;
+}
+.delete-btn,.move-btn{
+    padding: 8px 12px;
+    font-size: 2.4rem;
+    margin-left: 10px;
+    
+}
+body{
+  background-color: black;
+}
+h1{
+  color: antiquewhite;
+  font-size: 4.3rem;
+}
